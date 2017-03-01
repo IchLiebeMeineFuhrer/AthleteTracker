@@ -6,6 +6,6 @@ public class Start {
 
 	public static void main(String args[])
 	{
-		new GUIStart();
+		new GUIStart(); //Runs the GUI start program in the GUI package
 	}
 }
