@@ -11,7 +11,7 @@ public class GUIStart extends JApplet{
 	
 	public GUIStart()
 	{
-		super();
+		super(); //Runs the extended JApplet constructor. This makes a window
 		this.setLayout(null);		
 		this.setVisible(true);
 
