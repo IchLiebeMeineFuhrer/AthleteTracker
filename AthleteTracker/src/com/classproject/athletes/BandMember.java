@@ -11,6 +11,7 @@ public class BandMember extends Athlete
 	private boolean isInIDL;
 	private boolean isInWinterGaurd;
 	private boolean isInFlagsGroup;
+	private boolean isInJazzBand;
 	private int districtScore;
 	ArrayList<String> knownInstruments = new ArrayList<String>();
 	
@@ -97,6 +98,16 @@ public class BandMember extends Athlete
 	public void addInstrument(String s)
 	{
 		knownInstruments.add(s);
+	}
+	
+	public boolean getJazzBand()
+	{
+		return isInJazzBand;
+	}
+	
+	public void setJazzBand(boolean j)
+	{
+		isInJazzBand = j;
 	}
 	
 	public ArrayList getInstruments()
