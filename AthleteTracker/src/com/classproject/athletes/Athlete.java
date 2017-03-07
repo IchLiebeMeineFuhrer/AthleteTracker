@@ -38,6 +38,16 @@ public abstract class Athlete
 		gender = g;
 	}
 	
+	public int getStudentNumber()
+	{
+		return studentNumber;
+	}
+	
+	public void setStudentNumber(int n)
+	{
+		studentNumber = n;
+	}
+	
 	abstract boolean getCanPlay();
 	
 	abstract void setCanPlay();
