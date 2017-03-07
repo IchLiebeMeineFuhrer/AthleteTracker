@@ -125,4 +125,12 @@ public class BandMember extends Athlete
 	{
 		knownInstruments.remove(i);
 	}
+	public void setCanPlay()
+	{
+	}
+	
+	public boolean getCanPlay()
+	{
+		return canPlay;
+	}
 }
