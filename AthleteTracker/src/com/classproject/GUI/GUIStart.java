@@ -11,7 +11,11 @@ public class GUIStart extends JApplet{
 	
 	public GUIStart()
 	{
+<<<<<<< HEAD
 		super();
+=======
+		super(); //Runs the extended JApplet constructor. This makes a window
+>>>>>>> branch 'Development-Team-1' of https://github.com/BrennanHurst/AthleteTracker.git
 		this.setLayout(null);		
 		this.setVisible(true);
 
