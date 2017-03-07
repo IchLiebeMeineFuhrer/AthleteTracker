@@ -15,6 +15,12 @@ public class BandMember extends Athlete
 	private int districtScore;
 	ArrayList<String> knownInstruments = new ArrayList<String>();
 	
+	public BandMember(int a, char g, int n)
+	{
+		setAge(a);
+		setGender(g);
+		setStudentNumber(n);
+	}
 	public boolean getSymphonic()
 	{
 		return isInSymphonic;
