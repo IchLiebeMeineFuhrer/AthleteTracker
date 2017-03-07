@@ -5,12 +5,13 @@ public abstract class Athlete
 	private int age;
 	private char gender;
 	private boolean canPlay;
+	private int studentNumber;
 	
-	public Athlete(int a, char g, boolean c)
+	public Athlete(int a, char g, int n)
 	{
 		age = a;
 		gender = g;
-		canPlay = c;
+		studentNumber = n;
 	}
 	
 	public Athlete()
@@ -37,15 +38,9 @@ public abstract class Athlete
 		gender = g;
 	}
 	
-	public boolean getCanPlay()
-	{
-		return canPlay;
-	}
+	abstract boolean getCanPlay();
 	
-	public void setCanPlay(boolean c)
-	{
-		canPlay = c;
-	}
+	abstract void setCanPlay();
 	
 	public String toString()
 	{
