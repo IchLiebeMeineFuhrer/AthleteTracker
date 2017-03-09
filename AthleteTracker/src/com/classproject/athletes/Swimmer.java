@@ -1,5 +1,5 @@
 package com.classproject.athletes;
 
-public class Swimmer {
+public class Swimmer extends Athlete{
 
 }
